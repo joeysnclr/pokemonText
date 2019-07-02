@@ -1,0 +1,31 @@
+[
+	{
+		"name": "Starting town",
+		"type": "City",
+		"connects": ["Route 001"],
+		"accessible": true,
+		"gym": false,
+		"pokeCenter": false,
+		"pokeMart": false,
+	},
+	{
+		"name": "Route 001",
+		"type": "Route",
+		"connects": ["Starting Town", "First City"],
+		"accessible": true,
+		"trainers": [
+			{
+				"name": "Trainer Matt",
+				"Pokemon": [
+					{
+						"name": "Starly",
+						"level": "2"
+					}
+				]
+			}
+		]
+
+
+
+	}
+]

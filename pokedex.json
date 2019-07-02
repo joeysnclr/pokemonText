@@ -1,0 +1,3196 @@
+[{
+  "id": 1,
+  "name": {
+    "english": "Turtwig",
+    "japanese": "\u30ca\u30a8\u30c8\u30eb",
+    "chinese": "\u8349\u82d7\u9f9f"
+  },
+  "type": ["Grass"],
+  "base": {
+    "HP": 55,
+    "Attack": 68,
+    "Defense": 64,
+    "Sp. Attack": 45,
+    "Sp. Defense": 55,
+    "Speed": 31
+  },
+  "evolutions": [{
+    "id": 1,
+    "name": "Turtwig"
+  }, {
+    "id": 2,
+    "from": 1,
+    "trigger": "leveling",
+    "trigger_lvl": 4,
+    "name": "Grotle"
+  }, {
+    "id": 3,
+    "from": 2,
+    "trigger": "leveling",
+    "trigger_lvl": 8,
+    "name": "Torterra"
+  }],
+  "learnableMoves": [{
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 35,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Absorb",
+    "type": "Grass",
+    "damage": 20,
+    "pp": 25,
+    "level": 3
+  }, {
+    "name": "Razor Leaf",
+    "type": "Grass",
+    "damage": 55,
+    "pp": 25,
+    "level": 4
+  }, {
+    "name": "Bite",
+    "type": "Dark",
+    "damage": 60,
+    "pp": 25,
+    "level": 6
+  }, {
+    "name": "Mega Drain",
+    "type": "Grass",
+    "damage": 40,
+    "pp": 15,
+    "level": 7
+  }, {
+    "name": "Crunch",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 15,
+    "level": 10
+  }, {
+    "name": "Giga Drain",
+    "type": "Grass",
+    "damage": 60,
+    "pp": 10,
+    "level": 11
+  }, {
+    "name": "Leaf Storm",
+    "type": "Grass",
+    "damage": 140,
+    "pp": 5,
+    "level": 12
+  }]
+}, {
+  "id": 2,
+  "name": {
+    "english": "Grotle",
+    "japanese": "\u30cf\u30e4\u30b7\u30ac\u30e1",
+    "chinese": "\u6811\u6797\u9f9f"
+  },
+  "type": ["Grass"],
+  "base": {
+    "HP": 75,
+    "Attack": 89,
+    "Defense": 85,
+    "Sp. Attack": 55,
+    "Sp. Defense": 65,
+    "Speed": 36
+  },
+  "evolutions": [{
+    "id": 1,
+    "name": "Turtwig"
+  }, {
+    "id": 2,
+    "from": 1,
+    "trigger": "leveling",
+    "trigger_lvl": 4,
+    "name": "Grotle"
+  }, {
+    "id": 3,
+    "from": 2,
+    "trigger": "leveling",
+    "trigger_lvl": 8,
+    "name": "Torterra"
+  }],
+  "learnableMoves": [{
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 35,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Absorb",
+    "type": "Grass",
+    "damage": 20,
+    "pp": 25,
+    "level": 3
+  }, {
+    "name": "Razor Leaf",
+    "type": "Grass",
+    "damage": 55,
+    "pp": 25,
+    "level": 4
+  }, {
+    "name": "Bite",
+    "type": "Dark",
+    "damage": 60,
+    "pp": 25,
+    "level": 6
+  }, {
+    "name": "Mega Drain",
+    "type": "Grass",
+    "damage": 40,
+    "pp": 15,
+    "level": 7
+  }, {
+    "name": "Crunch",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 15,
+    "level": 11
+  }, {
+    "name": "Giga Drain",
+    "type": "Grass",
+    "damage": 60,
+    "pp": 10,
+    "level": 12
+  }, {
+    "name": "Leaf Storm",
+    "type": "Grass",
+    "damage": 140,
+    "pp": 5,
+    "level": 13
+  }]
+}, {
+  "id": 3,
+  "name": {
+    "english": "Torterra",
+    "japanese": "\u30c9\u30c0\u30a4\u30c8\u30b9",
+    "chinese": "\u571f\u53f0\u9f9f"
+  },
+  "type": ["Grass", "Ground"],
+  "base": {
+    "HP": 95,
+    "Attack": 109,
+    "Defense": 105,
+    "Sp. Attack": 75,
+    "Sp. Defense": 85,
+    "Speed": 56
+  },
+  "evolutions": [{
+    "id": 1,
+    "name": "Turtwig"
+  }, {
+    "id": 2,
+    "from": 1,
+    "trigger": "leveling",
+    "trigger_lvl": 4,
+    "name": "Grotle"
+  }, {
+    "id": 3,
+    "from": 2,
+    "trigger": "leveling",
+    "trigger_lvl": 8,
+    "name": "Torterra"
+  }],
+  "learnableMoves": [{
+    "name": "Wood Hammer",
+    "type": "Grass",
+    "damage": 120,
+    "pp": 15,
+    "level": 1
+  }, {
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 35,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Absorb",
+    "type": "Grass",
+    "damage": 20,
+    "pp": 25,
+    "level": 1
+  }, {
+    "name": "Razor Leaf",
+    "type": "Grass",
+    "damage": 55,
+    "pp": 25,
+    "level": 1
+  }, {
+    "name": "Absorb",
+    "type": "Grass",
+    "damage": 20,
+    "pp": 25,
+    "level": 3
+  }, {
+    "name": "Razor Leaf",
+    "type": "Grass",
+    "damage": 55,
+    "pp": 25,
+    "level": 4
+  }, {
+    "name": "Bite",
+    "type": "Dark",
+    "damage": 60,
+    "pp": 25,
+    "level": 6
+  }, {
+    "name": "Mega Drain",
+    "type": "Grass",
+    "damage": 40,
+    "pp": 15,
+    "level": 7
+  }, {
+    "name": "Earthquake",
+    "type": "Ground",
+    "damage": 100,
+    "pp": 10,
+    "level": 8
+  }, {
+    "name": "Crunch",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 15,
+    "level": 12
+  }, {
+    "name": "Giga Drain",
+    "type": "Grass",
+    "damage": 60,
+    "pp": 10,
+    "level": 13
+  }, {
+    "name": "Leaf Storm",
+    "type": "Grass",
+    "damage": 140,
+    "pp": 5,
+    "level": 15
+  }]
+}, {
+  "id": 4,
+  "name": {
+    "english": "Chimchar",
+    "japanese": "\u30d2\u30b3\u30b6\u30eb",
+    "chinese": "\u5c0f\u706b\u7130\u7334"
+  },
+  "type": ["Fire"],
+  "base": {
+    "HP": 44,
+    "Attack": 58,
+    "Defense": 44,
+    "Sp. Attack": 58,
+    "Sp. Defense": 44,
+    "Speed": 61
+  },
+  "evolutions": [{
+    "id": 4,
+    "name": "Chimchar"
+  }, {
+    "id": 5,
+    "from": 4,
+    "trigger": "leveling",
+    "trigger_lvl": 4,
+    "name": "Monferno"
+  }, {
+    "id": 6,
+    "from": 5,
+    "trigger": "leveling",
+    "trigger_lvl": 9,
+    "name": "Infernape"
+  }],
+  "learnableMoves": [{
+    "name": "Scratch",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Ember",
+    "type": "Fire",
+    "damage": 40,
+    "pp": 25,
+    "level": 2
+  }, {
+    "name": "Fury Swipes",
+    "type": "Normal",
+    "damage": 18,
+    "pp": 15,
+    "level": 4
+  }, {
+    "name": "Flame Wheel",
+    "type": "Fire",
+    "damage": 60,
+    "pp": 25,
+    "level": 5
+  }, {
+    "name": "Facade",
+    "type": "Normal",
+    "damage": 70,
+    "pp": 20,
+    "level": 8
+  }, {
+    "name": "Fire Spin",
+    "type": "Fire",
+    "damage": 15,
+    "pp": 15,
+    "level": 9
+  }, {
+    "name": "Flamethrower",
+    "type": "Fire",
+    "damage": 95,
+    "pp": 15,
+    "level": 11
+  }]
+}, {
+  "id": 5,
+  "name": {
+    "english": "Monferno",
+    "japanese": "\u30e2\u30a6\u30ab\u30b6\u30eb",
+    "chinese": "\u731b\u706b\u7334"
+  },
+  "type": ["Fire", "Fighting"],
+  "base": {
+    "HP": 64,
+    "Attack": 78,
+    "Defense": 52,
+    "Sp. Attack": 78,
+    "Sp. Defense": 52,
+    "Speed": 81
+  },
+  "evolutions": [{
+    "id": 4,
+    "name": "Chimchar"
+  }, {
+    "id": 5,
+    "from": 4,
+    "trigger": "leveling",
+    "trigger_lvl": 4,
+    "name": "Monferno"
+  }, {
+    "id": 6,
+    "from": 5,
+    "trigger": "leveling",
+    "trigger_lvl": 9,
+    "name": "Infernape"
+  }],
+  "learnableMoves": [{
+    "name": "Scratch",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Ember",
+    "type": "Fire",
+    "damage": 40,
+    "pp": 25,
+    "level": 1
+  }, {
+    "name": "Ember",
+    "type": "Fire",
+    "damage": 40,
+    "pp": 25,
+    "level": 2
+  }, {
+    "name": "Mach Punch",
+    "type": "Fighting",
+    "damage": 40,
+    "pp": 30,
+    "level": 4
+  }, {
+    "name": "Fury Swipes",
+    "type": "Normal",
+    "damage": 18,
+    "pp": 15,
+    "level": 4
+  }, {
+    "name": "Flame Wheel",
+    "type": "Fire",
+    "damage": 60,
+    "pp": 25,
+    "level": 5
+  }, {
+    "name": "Feint",
+    "type": "Normal",
+    "damage": 50,
+    "pp": 10,
+    "level": 7
+  }, {
+    "name": "Close Combat",
+    "type": "Fighting",
+    "damage": 120,
+    "pp": 5,
+    "level": 9
+  }, {
+    "name": "Fire Spin",
+    "type": "Fire",
+    "damage": 15,
+    "pp": 15,
+    "level": 10
+  }, {
+    "name": "Flare Blitz",
+    "type": "Fire",
+    "damage": 120,
+    "pp": 15,
+    "level": 13
+  }]
+}, {
+  "id": 6,
+  "name": {
+    "english": "Infernape",
+    "japanese": "\u30b4\u30a6\u30ab\u30b6\u30eb",
+    "chinese": "\u70c8\u7130\u7334"
+  },
+  "type": ["Fire", "Fighting"],
+  "base": {
+    "HP": 76,
+    "Attack": 104,
+    "Defense": 71,
+    "Sp. Attack": 104,
+    "Sp. Defense": 71,
+    "Speed": 108
+  },
+  "evolutions": [{
+    "id": 4,
+    "name": "Chimchar"
+  }, {
+    "id": 5,
+    "from": 4,
+    "trigger": "leveling",
+    "trigger_lvl": 4,
+    "name": "Monferno"
+  }, {
+    "id": 6,
+    "from": 5,
+    "trigger": "leveling",
+    "trigger_lvl": 9,
+    "name": "Infernape"
+  }],
+  "learnableMoves": [{
+    "name": "Scratch",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Ember",
+    "type": "Fire",
+    "damage": 40,
+    "pp": 25,
+    "level": 1
+  }, {
+    "name": "Ember",
+    "type": "Fire",
+    "damage": 40,
+    "pp": 25,
+    "level": 2
+  }, {
+    "name": "Mach Punch",
+    "type": "Fighting",
+    "damage": 40,
+    "pp": 30,
+    "level": 4
+  }, {
+    "name": "Fury Swipes",
+    "type": "Normal",
+    "damage": 18,
+    "pp": 15,
+    "level": 5
+  }, {
+    "name": "Flame Wheel",
+    "type": "Fire",
+    "damage": 60,
+    "pp": 25,
+    "level": 6
+  }, {
+    "name": "Feint",
+    "type": "Normal",
+    "damage": 50,
+    "pp": 10,
+    "level": 8
+  }, {
+    "name": "Close Combat",
+    "type": "Fighting",
+    "damage": 120,
+    "pp": 5,
+    "level": 11
+  }, {
+    "name": "Fire Spin",
+    "type": "Fire",
+    "damage": 15,
+    "pp": 15,
+    "level": 12
+  }, {
+    "name": "Flare Blitz",
+    "type": "Fire",
+    "damage": 120,
+    "pp": 15,
+    "level": 15
+  }]
+}, {
+  "id": 7,
+  "name": {
+    "english": "Piplup",
+    "japanese": "\u30dd\u30c3\u30c1\u30e3\u30de",
+    "chinese": "\u6ce2\u52a0\u66fc"
+  },
+  "type": ["Water"],
+  "base": {
+    "HP": 53,
+    "Attack": 51,
+    "Defense": 53,
+    "Sp. Attack": 61,
+    "Sp. Defense": 56,
+    "Speed": 40
+  },
+  "evolutions": [{
+    "id": 7,
+    "name": "Piplup"
+  }, {
+    "id": 8,
+    "from": 7,
+    "trigger": "leveling",
+    "trigger_lvl": 4,
+    "name": "Prinplup"
+  }, {
+    "id": 9,
+    "from": 8,
+    "trigger": "leveling",
+    "trigger_lvl": 9,
+    "name": "Empoleon"
+  }],
+  "learnableMoves": [{
+    "name": "Pound",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Bubble",
+    "type": "Water",
+    "damage": 20,
+    "pp": 30,
+    "level": 2
+  }, {
+    "name": "Peck",
+    "type": "Flying",
+    "damage": 35,
+    "pp": 35,
+    "level": 4
+  }, {
+    "name": "BubbleBeam",
+    "type": "Water",
+    "damage": 65,
+    "pp": 20,
+    "level": 5
+  }, {
+    "name": "Fury Attack",
+    "type": "Normal",
+    "damage": 15,
+    "pp": 20,
+    "level": 7
+  }, {
+    "name": "Brine",
+    "type": "Water",
+    "damage": 65,
+    "pp": 10,
+    "level": 8
+  }, {
+    "name": "Whirlpool",
+    "type": "Water",
+    "damage": 15,
+    "pp": 15,
+    "level": 8
+  }, {
+    "name": "Drill Peck",
+    "type": "Flying",
+    "damage": 80,
+    "pp": 20,
+    "level": 10
+  }, {
+    "name": "Hydro Pump",
+    "type": "Water",
+    "damage": 120,
+    "pp": 5,
+    "level": 11
+  }]
+}, {
+  "id": 8,
+  "name": {
+    "english": "Prinplup",
+    "japanese": "\u30dd\u30c3\u30bf\u30a4\u30b7",
+    "chinese": "\u6ce2\u7687\u5b50"
+  },
+  "type": ["Water"],
+  "base": {
+    "HP": 64,
+    "Attack": 66,
+    "Defense": 68,
+    "Sp. Attack": 81,
+    "Sp. Defense": 76,
+    "Speed": 50
+  },
+  "evolutions": [{
+    "id": 7,
+    "name": "Piplup"
+  }, {
+    "id": 8,
+    "from": 7,
+    "trigger": "leveling",
+    "trigger_lvl": 4,
+    "name": "Prinplup"
+  }, {
+    "id": 9,
+    "from": 8,
+    "trigger": "leveling",
+    "trigger_lvl": 9,
+    "name": "Empoleon"
+  }],
+  "learnableMoves": [{
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 35,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Bubble",
+    "type": "Water",
+    "damage": 20,
+    "pp": 30,
+    "level": 2
+  }, {
+    "name": "Peck",
+    "type": "Flying",
+    "damage": 35,
+    "pp": 35,
+    "level": 4
+  }, {
+    "name": "Metal Claw",
+    "type": "Steel",
+    "damage": 50,
+    "pp": 35,
+    "level": 4
+  }, {
+    "name": "BubbleBeam",
+    "type": "Water",
+    "damage": 65,
+    "pp": 20,
+    "level": 5
+  }, {
+    "name": "Fury Attack",
+    "type": "Normal",
+    "damage": 15,
+    "pp": 20,
+    "level": 7
+  }, {
+    "name": "Brine",
+    "type": "Water",
+    "damage": 65,
+    "pp": 10,
+    "level": 9
+  }, {
+    "name": "Whirlpool",
+    "type": "Water",
+    "damage": 15,
+    "pp": 15,
+    "level": 10
+  }, {
+    "name": "Drill Peck",
+    "type": "Flying",
+    "damage": 80,
+    "pp": 20,
+    "level": 12
+  }, {
+    "name": "Hydro Pump",
+    "type": "Water",
+    "damage": 120,
+    "pp": 5,
+    "level": 13
+  }]
+}, {
+  "id": 9,
+  "name": {
+    "english": "Empoleon",
+    "japanese": "\u30a8\u30f3\u30da\u30eb\u30c8",
+    "chinese": "\u5e1d\u738b\u62ff\u6ce2"
+  },
+  "type": ["Water", "Steel"],
+  "base": {
+    "HP": 84,
+    "Attack": 86,
+    "Defense": 88,
+    "Sp. Attack": 111,
+    "Sp. Defense": 101,
+    "Speed": 60
+  },
+  "evolutions": [{
+    "id": 7,
+    "name": "Piplup"
+  }, {
+    "id": 8,
+    "from": 7,
+    "trigger": "leveling",
+    "trigger_lvl": 4,
+    "name": "Prinplup"
+  }, {
+    "id": 9,
+    "from": 8,
+    "trigger": "leveling",
+    "trigger_lvl": 9,
+    "name": "Empoleon"
+  }],
+  "learnableMoves": [{
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 35,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Bubble",
+    "type": "Water",
+    "damage": 20,
+    "pp": 30,
+    "level": 1
+  }, {
+    "name": "Bubble",
+    "type": "Water",
+    "damage": 20,
+    "pp": 30,
+    "level": 2
+  }, {
+    "name": "Peck",
+    "type": "Flying",
+    "damage": 35,
+    "pp": 35,
+    "level": 4
+  }, {
+    "name": "Metal Claw",
+    "type": "Steel",
+    "damage": 50,
+    "pp": 35,
+    "level": 4
+  }, {
+    "name": "BubbleBeam",
+    "type": "Water",
+    "damage": 65,
+    "pp": 20,
+    "level": 5
+  }, {
+    "name": "Fury Attack",
+    "type": "Normal",
+    "damage": 15,
+    "pp": 20,
+    "level": 7
+  }, {
+    "name": "Brine",
+    "type": "Water",
+    "damage": 65,
+    "pp": 10,
+    "level": 9
+  }, {
+    "name": "Aqua Jet",
+    "type": "Water",
+    "damage": 40,
+    "pp": 20,
+    "level": 9
+  }, {
+    "name": "Whirlpool",
+    "type": "Water",
+    "damage": 15,
+    "pp": 15,
+    "level": 10
+  }, {
+    "name": "Drill Peck",
+    "type": "Flying",
+    "damage": 80,
+    "pp": 20,
+    "level": 13
+  }, {
+    "name": "Hydro Pump",
+    "type": "Water",
+    "damage": 120,
+    "pp": 5,
+    "level": 15
+  }]
+}, {
+  "id": 10,
+  "name": {
+    "english": "Starly",
+    "japanese": "\u30e0\u30c3\u30af\u30eb",
+    "chinese": "\u59c6\u514b\u513f"
+  },
+  "type": ["Normal", "Flying"],
+  "base": {
+    "HP": 40,
+    "Attack": 55,
+    "Defense": 30,
+    "Sp. Attack": 30,
+    "Sp. Defense": 30,
+    "Speed": 60
+  },
+  "evolutions": [{
+    "id": 10,
+    "name": "Starly"
+  }, {
+    "id": 11,
+    "from": 10,
+    "trigger": "leveling",
+    "trigger_lvl": 4,
+    "name": "Staravia"
+  }, {
+    "id": 12,
+    "from": 11,
+    "trigger": "leveling",
+    "trigger_lvl": 8,
+    "name": "Staraptor"
+  }],
+  "learnableMoves": [{
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 35,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Quick Attack",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 30,
+    "level": 2
+  }, {
+    "name": "Wing Attack",
+    "type": "Flying",
+    "damage": 60,
+    "pp": 35,
+    "level": 3
+  }, {
+    "name": "Aerial Ace",
+    "type": "Flying",
+    "damage": 60,
+    "pp": 20,
+    "level": 7
+  }, {
+    "name": "Take Down",
+    "type": "Normal",
+    "damage": 90,
+    "pp": 20,
+    "level": 8
+  }, {
+    "name": "Brave Bird",
+    "type": "Flying",
+    "damage": 120,
+    "pp": 15,
+    "level": 10
+  }]
+}, {
+  "id": 11,
+  "name": {
+    "english": "Staravia",
+    "japanese": "\u30e0\u30af\u30d0\u30fc\u30c9",
+    "chinese": "\u59c6\u514b\u9e1f"
+  },
+  "type": ["Normal", "Flying"],
+  "base": {
+    "HP": 55,
+    "Attack": 75,
+    "Defense": 50,
+    "Sp. Attack": 40,
+    "Sp. Defense": 40,
+    "Speed": 80
+  },
+  "evolutions": [{
+    "id": 10,
+    "name": "Starly"
+  }, {
+    "id": 11,
+    "from": 10,
+    "trigger": "leveling",
+    "trigger_lvl": 4,
+    "name": "Staravia"
+  }, {
+    "id": 12,
+    "from": 11,
+    "trigger": "leveling",
+    "trigger_lvl": 8,
+    "name": "Staraptor"
+  }],
+  "learnableMoves": [{
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 35,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Quick Attack",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 30,
+    "level": 1
+  }, {
+    "name": "Quick Attack",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 30,
+    "level": 2
+  }, {
+    "name": "Wing Attack",
+    "type": "Flying",
+    "damage": 60,
+    "pp": 35,
+    "level": 3
+  }, {
+    "name": "Aerial Ace",
+    "type": "Flying",
+    "damage": 60,
+    "pp": 20,
+    "level": 7
+  }, {
+    "name": "Take Down",
+    "type": "Normal",
+    "damage": 90,
+    "pp": 20,
+    "level": 9
+  }, {
+    "name": "Brave Bird",
+    "type": "Flying",
+    "damage": 120,
+    "pp": 15,
+    "level": 11
+  }]
+}, {
+  "id": 12,
+  "name": {
+    "english": "Staraptor",
+    "japanese": "\u30e0\u30af\u30db\u30fc\u30af",
+    "chinese": "\u59c6\u514b\u9e70"
+  },
+  "type": ["Normal", "Flying"],
+  "base": {
+    "HP": 85,
+    "Attack": 120,
+    "Defense": 70,
+    "Sp. Attack": 50,
+    "Sp. Defense": 60,
+    "Speed": 100
+  },
+  "evolutions": [{
+    "id": 10,
+    "name": "Starly"
+  }, {
+    "id": 11,
+    "from": 10,
+    "trigger": "leveling",
+    "trigger_lvl": 4,
+    "name": "Staravia"
+  }, {
+    "id": 12,
+    "from": 11,
+    "trigger": "leveling",
+    "trigger_lvl": 8,
+    "name": "Staraptor"
+  }],
+  "learnableMoves": [{
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 35,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Quick Attack",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 30,
+    "level": 1
+  }, {
+    "name": "Wing Attack",
+    "type": "Flying",
+    "damage": 60,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Quick Attack",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 30,
+    "level": 2
+  }, {
+    "name": "Wing Attack",
+    "type": "Flying",
+    "damage": 60,
+    "pp": 35,
+    "level": 3
+  }, {
+    "name": "Aerial Ace",
+    "type": "Flying",
+    "damage": 60,
+    "pp": 20,
+    "level": 7
+  }, {
+    "name": "Take Down",
+    "type": "Normal",
+    "damage": 90,
+    "pp": 20,
+    "level": 9
+  }, {
+    "name": "Close Combat",
+    "type": "Fighting",
+    "damage": 120,
+    "pp": 5,
+    "level": 9
+  }, {
+    "name": "Brave Bird",
+    "type": "Flying",
+    "damage": 120,
+    "pp": 15,
+    "level": 13
+  }]
+}, {
+  "id": 13,
+  "name": {
+    "english": "Shinx",
+    "japanese": "\u30b3\u30ea\u30f3\u30af",
+    "chinese": "\u5c0f\u732b\u602a"
+  },
+  "type": ["Electric"],
+  "base": {
+    "HP": 45,
+    "Attack": 65,
+    "Defense": 34,
+    "Sp. Attack": 40,
+    "Sp. Defense": 34,
+    "Speed": 45
+  },
+  "evolutions": [{
+    "id": 13,
+    "name": "Shinx"
+  }, {
+    "id": 14,
+    "from": 13,
+    "trigger": "leveling",
+    "trigger_lvl": 4,
+    "name": "Luxio"
+  }, {
+    "id": 15,
+    "from": 14,
+    "trigger": "leveling",
+    "trigger_lvl": 8,
+    "name": "Luxray"
+  }],
+  "learnableMoves": [{
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 35,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Bite",
+    "type": "Dark",
+    "damage": 60,
+    "pp": 25,
+    "level": 5
+  }, {
+    "name": "Spark",
+    "type": "Electric",
+    "damage": 65,
+    "pp": 20,
+    "level": 4
+  }, {
+    "name": "Crunch",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 15,
+    "level": 9
+  }, {
+    "name": "Thunder Fang",
+    "type": "Electric",
+    "damage": 65,
+    "pp": 15,
+    "level": 8
+  }, {
+    "name": "Discharge",
+    "type": "Electric",
+    "damage": 80,
+    "pp": 15,
+    "level": 11
+  }]
+}, {
+  "id": 14,
+  "name": {
+    "english": "Luxio",
+    "japanese": "\u30eb\u30af\u30b7\u30aa",
+    "chinese": "\u52d2\u514b\u732b"
+  },
+  "type": ["Electric"],
+  "base": {
+    "HP": 60,
+    "Attack": 85,
+    "Defense": 49,
+    "Sp. Attack": 60,
+    "Sp. Defense": 49,
+    "Speed": 60
+  },
+  "evolutions": [{
+    "id": 13,
+    "name": "Shinx"
+  }, {
+    "id": 14,
+    "from": 13,
+    "trigger": "leveling",
+    "trigger_lvl": 4,
+    "name": "Luxio"
+  }, {
+    "id": 15,
+    "from": 14,
+    "trigger": "leveling",
+    "trigger_lvl": 8,
+    "name": "Luxray"
+  }],
+  "learnableMoves": [{
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 35,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Bite",
+    "type": "Dark",
+    "damage": 60,
+    "pp": 25,
+    "level": 5
+  }, {
+    "name": "Spark",
+    "type": "Electric",
+    "damage": 65,
+    "pp": 20,
+    "level": 4
+  }, {
+    "name": "Crunch",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 15,
+    "level": 10
+  }, {
+    "name": "Thunder Fang",
+    "type": "Electric",
+    "damage": 65,
+    "pp": 15,
+    "level": 9
+  }, {
+    "name": "Discharge",
+    "type": "Electric",
+    "damage": 80,
+    "pp": 15,
+    "level": 12
+  }]
+}, {
+  "id": 15,
+  "name": {
+    "english": "Luxray",
+    "japanese": "\u30ec\u30f3\u30c8\u30e9\u30fc",
+    "chinese": "\u4f26\u7434\u732b"
+  },
+  "type": ["Electric"],
+  "base": {
+    "HP": 80,
+    "Attack": 120,
+    "Defense": 79,
+    "Sp. Attack": 95,
+    "Sp. Defense": 79,
+    "Speed": 70
+  },
+  "evolutions": [{
+    "id": 13,
+    "name": "Shinx"
+  }, {
+    "id": 14,
+    "from": 13,
+    "trigger": "leveling",
+    "trigger_lvl": 4,
+    "name": "Luxio"
+  }, {
+    "id": 15,
+    "from": 14,
+    "trigger": "leveling",
+    "trigger_lvl": 8,
+    "name": "Luxray"
+  }],
+  "learnableMoves": [{
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 35,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Bite",
+    "type": "Dark",
+    "damage": 60,
+    "pp": 25,
+    "level": 5
+  }, {
+    "name": "Spark",
+    "type": "Electric",
+    "damage": 65,
+    "pp": 20,
+    "level": 4
+  }, {
+    "name": "Crunch",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 15,
+    "level": 11
+  }, {
+    "name": "Thunder Fang",
+    "type": "Electric",
+    "damage": 65,
+    "pp": 15,
+    "level": 9
+  }, {
+    "name": "Discharge",
+    "type": "Electric",
+    "damage": 80,
+    "pp": 15,
+    "level": 14
+  }]
+}, {
+  "id": 16,
+  "name": {
+    "english": "Machop",
+    "japanese": "\u30ef\u30f3\u30ea\u30ad\u30fc",
+    "chinese": "\u8155\u529b"
+  },
+  "type": ["Fighting"],
+  "base": {
+    "HP": 70,
+    "Attack": 80,
+    "Defense": 50,
+    "Sp. Attack": 35,
+    "Sp. Defense": 35,
+    "Speed": 35
+  },
+  "evolutions": [{
+    "id": 16,
+    "name": "Machop"
+  }, {
+    "id": 17,
+    "from": 16,
+    "trigger": "leveling",
+    "trigger_lvl": 7,
+    "name": "Machoke"
+  }, {
+    "id": 18,
+    "from": 17,
+    "trigger": "leveling",
+    "name": "Machamp",
+    "trigger_lvl": 10
+  }],
+  "learnableMoves": [{
+    "name": "Karate Chop",
+    "type": "Fighting",
+    "damage": 50,
+    "pp": 25,
+    "level": 3
+  }, {
+    "name": "Revenge",
+    "type": "Fighting",
+    "damage": 60,
+    "pp": 10,
+    "level": 6
+  }, {
+    "name": "Vital Throw",
+    "type": "Fighting",
+    "damage": 70,
+    "pp": 10,
+    "level": 7
+  }, {
+    "name": "Submission",
+    "type": "Fighting",
+    "damage": 80,
+    "pp": 25,
+    "level": 8
+  }, {
+    "name": "Wake-Up Slap",
+    "type": "Fighting",
+    "damage": 60,
+    "pp": 10,
+    "level": 9
+  }, {
+    "name": "Cross Chop",
+    "type": "Fighting",
+    "damage": 100,
+    "pp": 5,
+    "level": 10
+  }, {
+    "name": "DynamicPunch",
+    "type": "Fighting",
+    "damage": 100,
+    "pp": 5,
+    "level": 12
+  }]
+}, {
+  "id": 17,
+  "name": {
+    "english": "Machoke",
+    "japanese": "\u30b4\u30fc\u30ea\u30ad\u30fc",
+    "chinese": "\u8c6a\u529b"
+  },
+  "type": ["Fighting"],
+  "base": {
+    "HP": 80,
+    "Attack": 100,
+    "Defense": 70,
+    "Sp. Attack": 50,
+    "Sp. Defense": 60,
+    "Speed": 45
+  },
+  "evolutions": [{
+    "id": 16,
+    "name": "Machop"
+  }, {
+    "id": 17,
+    "from": 16,
+    "trigger": "leveling",
+    "trigger_lvl": 7,
+    "name": "Machoke"
+  }, {
+    "id": 18,
+    "from": 17,
+    "trigger": "leveling",
+    "name": "Machamp",
+    "trigger_lvl": 10
+  }],
+  "learnableMoves": [{
+    "name": "Karate Chop",
+    "type": "Fighting",
+    "damage": 50,
+    "pp": 25,
+    "level": 3
+  }, {
+    "name": "Revenge",
+    "type": "Fighting",
+    "damage": 60,
+    "pp": 10,
+    "level": 6
+  }, {
+    "name": "Vital Throw",
+    "type": "Fighting",
+    "damage": 70,
+    "pp": 10,
+    "level": 7
+  }, {
+    "name": "Submission",
+    "type": "Fighting",
+    "damage": 80,
+    "pp": 25,
+    "level": 8
+  }, {
+    "name": "Wake-Up Slap",
+    "type": "Fighting",
+    "damage": 60,
+    "pp": 10,
+    "level": 9
+  }, {
+    "name": "Cross Chop",
+    "type": "Fighting",
+    "damage": 100,
+    "pp": 5,
+    "level": 10
+  }, {
+    "name": "DynamicPunch",
+    "type": "Fighting",
+    "damage": 100,
+    "pp": 5,
+    "level": 13
+  }]
+}, {
+  "id": 18,
+  "name": {
+    "english": "Machamp",
+    "japanese": "\u30ab\u30a4\u30ea\u30ad\u30fc",
+    "chinese": "\u602a\u529b"
+  },
+  "type": ["Fighting"],
+  "base": {
+    "HP": 90,
+    "Attack": 130,
+    "Defense": 80,
+    "Sp. Attack": 65,
+    "Sp. Defense": 85,
+    "Speed": 55
+  },
+  "evolutions": [{
+    "id": 16,
+    "name": "Machop"
+  }, {
+    "id": 17,
+    "from": 16,
+    "trigger": "leveling",
+    "trigger_lvl": 7,
+    "name": "Machoke"
+  }, {
+    "id": 18,
+    "from": 17,
+    "trigger": "leveling",
+    "name": "Machamp",
+    "trigger_lvl": 10
+  }],
+  "learnableMoves": [{
+    "name": "Karate Chop",
+    "type": "Fighting",
+    "damage": 50,
+    "pp": 25,
+    "level": 3
+  }, {
+    "name": "Revenge",
+    "type": "Fighting",
+    "damage": 60,
+    "pp": 10,
+    "level": 6
+  }, {
+    "name": "Vital Throw",
+    "type": "Fighting",
+    "damage": 70,
+    "pp": 10,
+    "level": 7
+  }, {
+    "name": "Submission",
+    "type": "Fighting",
+    "damage": 80,
+    "pp": 25,
+    "level": 8
+  }, {
+    "name": "Wake-Up Slap",
+    "type": "Fighting",
+    "damage": 60,
+    "pp": 10,
+    "level": 9
+  }, {
+    "name": "Cross Chop",
+    "type": "Fighting",
+    "damage": 100,
+    "pp": 5,
+    "level": 10
+  }, {
+    "name": "DynamicPunch",
+    "type": "Fighting",
+    "damage": 100,
+    "pp": 5,
+    "level": 13
+  }]
+}, {
+  "id": 19,
+  "name": {
+    "english": "Buizel",
+    "japanese": "\u30d6\u30a4\u30bc\u30eb",
+    "chinese": "\u6cf3\u5708\u9f2c"
+  },
+  "type": ["Water"],
+  "base": {
+    "HP": 55,
+    "Attack": 65,
+    "Defense": 35,
+    "Sp. Attack": 60,
+    "Sp. Defense": 30,
+    "Speed": 85
+  },
+  "evolutions": [{
+    "id": 19,
+    "name": "Buizel"
+  }, {
+    "id": 20,
+    "from": 19,
+    "trigger": "leveling",
+    "trigger_lvl": 6,
+    "name": "Floatzel"
+  }],
+  "learnableMoves": [{
+    "name": "Quick Attack",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 30,
+    "level": 1
+  }, {
+    "name": "Water Gun",
+    "type": "Water",
+    "damage": 40,
+    "pp": 25,
+    "level": 2
+  }, {
+    "name": "Pursuit",
+    "type": "Dark",
+    "damage": 40,
+    "pp": 20,
+    "level": 3
+  }, {
+    "name": "Swift",
+    "type": "Normal",
+    "damage": 60,
+    "pp": 20,
+    "level": 4
+  }, {
+    "name": "Aqua Jet",
+    "type": "Water",
+    "damage": 40,
+    "pp": 30,
+    "level": 6
+  }, {
+    "name": "Whirlpool",
+    "type": "Water",
+    "damage": 15,
+    "pp": 15,
+    "level": 9
+  }, {
+    "name": "Razor Wind",
+    "type": "Normal",
+    "damage": 80,
+    "pp": 10,
+    "level": 12
+  }]
+}, {
+  "id": 20,
+  "name": {
+    "english": "Floatzel",
+    "japanese": "\u30d5\u30ed\u30fc\u30bc\u30eb",
+    "chinese": "\u6d6e\u6f5c\u9f2c"
+  },
+  "type": ["Water"],
+  "base": {
+    "HP": 85,
+    "Attack": 105,
+    "Defense": 55,
+    "Sp. Attack": 85,
+    "Sp. Defense": 50,
+    "Speed": 115
+  },
+  "evolutions": [{
+    "id": 19,
+    "name": "Buizel"
+  }, {
+    "id": 20,
+    "from": 19,
+    "trigger": "leveling",
+    "trigger_lvl": 6,
+    "name": "Floatzel"
+  }],
+  "learnableMoves": [{
+    "name": "Ice Fang",
+    "type": "Ice",
+    "damage": 65,
+    "pp": 15,
+    "level": 1
+  }, {
+    "name": "Quick Attack",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 30,
+    "level": 1
+  }, {
+    "name": "Quick Attack",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 30,
+    "level": 1
+  }, {
+    "name": "Water Gun",
+    "type": "Water",
+    "damage": 40,
+    "pp": 25,
+    "level": 2
+  }, {
+    "name": "Pursuit",
+    "type": "Dark",
+    "damage": 40,
+    "pp": 20,
+    "level": 3
+  }, {
+    "name": "Swift",
+    "type": "Normal",
+    "damage": 60,
+    "pp": 20,
+    "level": 4
+  }, {
+    "name": "Aqua Jet",
+    "type": "Water",
+    "damage": 40,
+    "pp": 30,
+    "level": 6
+  }, {
+    "name": "Crunch",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 15,
+    "level": 7
+  }, {
+    "name": "Whirlpool",
+    "type": "Water",
+    "damage": 15,
+    "pp": 15,
+    "level": 10
+  }, {
+    "name": "Razor Wind",
+    "type": "Normal",
+    "damage": 80,
+    "pp": 10,
+    "level": 13
+  }]
+}, {
+  "id": 21,
+  "name": {
+    "english": "Gastly",
+    "japanese": "\u30b4\u30fc\u30b9",
+    "chinese": "\u9b3c\u65af"
+  },
+  "type": ["Ghost", "Poison"],
+  "base": {
+    "HP": 30,
+    "Attack": 35,
+    "Defense": 30,
+    "Sp. Attack": 100,
+    "Sp. Defense": 35,
+    "Speed": 80
+  },
+  "evolutions": [{
+    "id": 21,
+    "name": "Gastly"
+  }, {
+    "id": 22,
+    "from": 21,
+    "trigger": "leveling",
+    "trigger_lvl": 6,
+    "name": "Haunter"
+  }, {
+    "id": 23,
+    "from": 22,
+    "trigger": "leveling",
+    "name": "Gengar",
+    "trigger_lvl": 10
+  }],
+  "learnableMoves": [{
+    "name": "Lick",
+    "type": "Ghost",
+    "damage": 20,
+    "pp": 30,
+    "level": 1
+  }, {
+    "name": "Sucker Punch",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 5,
+    "level": 6
+  }, {
+    "name": "Payback",
+    "type": "Dark",
+    "damage": 50,
+    "pp": 10,
+    "level": 7
+  }, {
+    "name": "Shadow Ball",
+    "type": "Ghost",
+    "damage": 80,
+    "pp": 15,
+    "level": 8
+  }, {
+    "name": "Dream Eater",
+    "type": "Psychic",
+    "damage": 100,
+    "pp": 15,
+    "level": 9
+  }, {
+    "name": "Dark Pulse",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 15,
+    "level": 9
+  }]
+}, {
+  "id": 22,
+  "name": {
+    "english": "Haunter",
+    "japanese": "\u30b4\u30fc\u30b9\u30c8",
+    "chinese": "\u9b3c\u65af\u901a"
+  },
+  "type": ["Ghost", "Poison"],
+  "base": {
+    "HP": 45,
+    "Attack": 50,
+    "Defense": 45,
+    "Sp. Attack": 115,
+    "Sp. Defense": 55,
+    "Speed": 95
+  },
+  "evolutions": [{
+    "id": 21,
+    "name": "Gastly"
+  }, {
+    "id": 22,
+    "from": 21,
+    "trigger": "leveling",
+    "trigger_lvl": 6,
+    "name": "Haunter"
+  }, {
+    "id": 23,
+    "from": 22,
+    "trigger": "leveling",
+    "name": "Gengar",
+    "trigger_lvl": 10
+  }],
+  "learnableMoves": [{
+    "name": "Lick",
+    "type": "Ghost",
+    "damage": 20,
+    "pp": 30,
+    "level": 1
+  }, {
+    "name": "Sucker Punch",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 5,
+    "level": 6
+  }, {
+    "name": "Shadow Punch",
+    "type": "Ghost",
+    "damage": 60,
+    "pp": 20,
+    "level": 7
+  }, {
+    "name": "Payback",
+    "type": "Dark",
+    "damage": 50,
+    "pp": 10,
+    "level": 7
+  }, {
+    "name": "Shadow Ball",
+    "type": "Ghost",
+    "damage": 80,
+    "pp": 15,
+    "level": 9
+  }, {
+    "name": "Dream Eater",
+    "type": "Psychic",
+    "damage": 100,
+    "pp": 15,
+    "level": 10
+  }, {
+    "name": "Dark Pulse",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 15,
+    "level": 11
+  }]
+}, {
+  "id": 23,
+  "name": {
+    "english": "Gengar",
+    "japanese": "\u30b2\u30f3\u30ac\u30fc",
+    "chinese": "\u803f\u9b3c"
+  },
+  "type": ["Ghost", "Poison"],
+  "base": {
+    "HP": 60,
+    "Attack": 65,
+    "Defense": 60,
+    "Sp. Attack": 130,
+    "Sp. Defense": 75,
+    "Speed": 110
+  },
+  "evolutions": [{
+    "id": 21,
+    "name": "Gastly"
+  }, {
+    "id": 22,
+    "from": 21,
+    "trigger": "leveling",
+    "trigger_lvl": 6,
+    "name": "Haunter"
+  }, {
+    "id": 23,
+    "from": 22,
+    "trigger": "leveling",
+    "name": "Gengar",
+    "trigger_lvl": 10
+  }],
+  "learnableMoves": [{
+    "name": "Lick",
+    "type": "Ghost",
+    "damage": 20,
+    "pp": 30,
+    "level": 1
+  }, {
+    "name": "Sucker Punch",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 5,
+    "level": 6
+  }, {
+    "name": "Shadow Punch",
+    "type": "Ghost",
+    "damage": 60,
+    "pp": 20,
+    "level": 7
+  }, {
+    "name": "Payback",
+    "type": "Dark",
+    "damage": 50,
+    "pp": 10,
+    "level": 7
+  }, {
+    "name": "Shadow Ball",
+    "type": "Ghost",
+    "damage": 80,
+    "pp": 15,
+    "level": 9
+  }, {
+    "name": "Dream Eater",
+    "type": "Psychic",
+    "damage": 100,
+    "pp": 15,
+    "level": 10
+  }, {
+    "name": "Dark Pulse",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 15,
+    "level": 11
+  }]
+}, {
+  "id": 24,
+  "name": {
+    "english": "Ponyta",
+    "japanese": "\u30dd\u30cb\u30fc\u30bf",
+    "chinese": "\u5c0f\u706b\u9a6c"
+  },
+  "type": ["Fire"],
+  "base": {
+    "HP": 50,
+    "Attack": 85,
+    "Defense": 55,
+    "Sp. Attack": 65,
+    "Sp. Defense": 65,
+    "Speed": 90
+  },
+  "evolutions": [{
+    "id": 24,
+    "name": "Ponyta"
+  }, {
+    "id": 25,
+    "from": 24,
+    "trigger": "leveling",
+    "trigger_lvl": 10,
+    "name": "Rapidash"
+  }],
+  "learnableMoves": [{
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 35,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Ember",
+    "type": "Fire",
+    "damage": 40,
+    "pp": 25,
+    "level": 3
+  }, {
+    "name": "Flame Wheel",
+    "type": "Fire",
+    "damage": 60,
+    "pp": 25,
+    "level": 4
+  }, {
+    "name": "Stomp",
+    "type": "Normal",
+    "damage": 65,
+    "pp": 20,
+    "level": 5
+  }, {
+    "name": "Fire Spin",
+    "type": "Fire",
+    "damage": 15,
+    "pp": 15,
+    "level": 6
+  }, {
+    "name": "Take Down",
+    "type": "Normal",
+    "damage": 90,
+    "pp": 20,
+    "level": 7
+  }, {
+    "name": "Fire Blast",
+    "type": "Fire",
+    "damage": 120,
+    "pp": 5,
+    "level": 10
+  }, {
+    "name": "Bounce",
+    "type": "Flying",
+    "damage": 85,
+    "pp": 5,
+    "level": 11
+  }, {
+    "name": "Flare Blitz",
+    "type": "Fire",
+    "damage": 120,
+    "pp": 15,
+    "level": 12
+  }]
+}, {
+  "id": 25,
+  "name": {
+    "english": "Rapidash",
+    "japanese": "\u30ae\u30e3\u30ed\u30c3\u30d7",
+    "chinese": "\u70c8\u7130\u9a6c"
+  },
+  "type": ["Fire"],
+  "base": {
+    "HP": 65,
+    "Attack": 100,
+    "Defense": 70,
+    "Sp. Attack": 80,
+    "Sp. Defense": 80,
+    "Speed": 105
+  },
+  "evolutions": [{
+    "id": 24,
+    "name": "Ponyta"
+  }, {
+    "id": 25,
+    "from": 24,
+    "trigger": "leveling",
+    "trigger_lvl": 10,
+    "name": "Rapidash"
+  }],
+  "learnableMoves": [{
+    "name": "Megahorn",
+    "type": "Bug",
+    "damage": 120,
+    "pp": 10,
+    "level": 1
+  }, {
+    "name": "Poison Jab",
+    "type": "Poison",
+    "damage": 80,
+    "pp": 20,
+    "level": 1
+  }, {
+    "name": "Quick Attack",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 30,
+    "level": 1
+  }, {
+    "name": "Ember",
+    "type": "Fire",
+    "damage": 40,
+    "pp": 25,
+    "level": 1
+  }, {
+    "name": "Ember",
+    "type": "Fire",
+    "damage": 40,
+    "pp": 25,
+    "level": 3
+  }, {
+    "name": "Flame Wheel",
+    "type": "Fire",
+    "damage": 60,
+    "pp": 25,
+    "level": 4
+  }, {
+    "name": "Stomp",
+    "type": "Normal",
+    "damage": 65,
+    "pp": 20,
+    "level": 5
+  }, {
+    "name": "Fire Spin",
+    "type": "Fire",
+    "damage": 15,
+    "pp": 15,
+    "level": 6
+  }, {
+    "name": "Take Down",
+    "type": "Normal",
+    "damage": 90,
+    "pp": 20,
+    "level": 7
+  }, {
+    "name": "Fire Blast",
+    "type": "Fire",
+    "damage": 120,
+    "pp": 5,
+    "level": 10
+  }, {
+    "name": "Fury Attack",
+    "type": "Normal",
+    "damage": 15,
+    "pp": 20,
+    "level": 10
+  }, {
+    "name": "Bounce",
+    "type": "Flying",
+    "damage": 85,
+    "pp": 5,
+    "level": 12
+  }, {
+    "name": "Flare Blitz",
+    "type": "Fire",
+    "damage": 120,
+    "pp": 15,
+    "level": 14
+  }]
+}, {
+  "id": 26,
+  "name": {
+    "english": "Pichu",
+    "japanese": "\u30d4\u30c1\u30e5\u30fc",
+    "chinese": "\u76ae\u4e18"
+  },
+  "type": ["Electric"],
+  "base": {
+    "HP": 20,
+    "Attack": 40,
+    "Defense": 15,
+    "Sp. Attack": 35,
+    "Sp. Defense": 35,
+    "Speed": 60
+  },
+  "evolutions": [{
+    "id": 26,
+    "name": "Pichu"
+  }, {
+    "id": 27,
+    "from": 26,
+    "trigger": "leveling",
+    "name": "Pikachu",
+    "trigger_lvl": 5
+  }, {
+    "id": 28,
+    "from": 27,
+    "trigger": "leveling",
+    "name": "Raichu",
+    "trigger_item": "thunder-stone",
+    "trigger_lvl": 10
+  }],
+  "learnableMoves": [{
+    "name": "ThunderShock",
+    "type": "Electric",
+    "damage": 40,
+    "pp": 30,
+    "level": 1
+  }]
+}, {
+  "id": 27,
+  "name": {
+    "english": "Pikachu",
+    "japanese": "\u30d4\u30ab\u30c1\u30e5\u30a6",
+    "chinese": "\u76ae\u5361\u4e18"
+  },
+  "type": ["Electric"],
+  "base": {
+    "HP": 35,
+    "Attack": 55,
+    "Defense": 40,
+    "Sp. Attack": 50,
+    "Sp. Defense": 50,
+    "Speed": 90
+  },
+  "evolutions": [{
+    "id": 26,
+    "name": "Pichu"
+  }, {
+    "id": 27,
+    "from": 26,
+    "trigger": "leveling",
+    "name": "Pikachu",
+    "trigger_lvl": 5
+  }, {
+    "id": 28,
+    "from": 27,
+    "trigger": "leveling",
+    "name": "Raichu",
+    "trigger_item": "thunder-stone",
+    "trigger_lvl": 10
+  }],
+  "learnableMoves": [{
+    "name": "ThunderShock",
+    "type": "Electric",
+    "damage": 40,
+    "pp": 30,
+    "level": 1
+  }, {
+    "name": "Quick Attack",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 30,
+    "level": 4
+  }, {
+    "name": "Slam",
+    "type": "Normal",
+    "damage": 80,
+    "pp": 20,
+    "level": 6
+  }, {
+    "name": "Thunderbolt",
+    "type": "Electric",
+    "damage": 95,
+    "pp": 15,
+    "level": 7
+  }, {
+    "name": "Feint",
+    "type": "Normal",
+    "damage": 50,
+    "pp": 10,
+    "level": 8
+  }, {
+    "name": "Discharge",
+    "type": "Electric",
+    "damage": 80,
+    "pp": 15,
+    "level": 10
+  }, {
+    "name": "Thunder",
+    "type": "Electric",
+    "damage": 120,
+    "pp": 10,
+    "level": 12
+  }]
+}, {
+  "id": 28,
+  "name": {
+    "english": "Raichu",
+    "japanese": "\u30e9\u30a4\u30c1\u30e5\u30a6",
+    "chinese": "\u96f7\u4e18"
+  },
+  "type": ["Electric"],
+  "base": {
+    "HP": 60,
+    "Attack": 90,
+    "Defense": 55,
+    "Sp. Attack": 90,
+    "Sp. Defense": 80,
+    "Speed": 110
+  },
+  "evolutions": [{
+    "id": 26,
+    "name": "Pichu"
+  }, {
+    "id": 27,
+    "from": 26,
+    "trigger": "leveling",
+    "name": "Pikachu",
+    "trigger_lvl": 5
+  }, {
+    "id": 28,
+    "from": 27,
+    "trigger": "leveling",
+    "name": "Raichu",
+    "trigger_item": "thunder-stone",
+    "trigger_lvl": 10
+  }],
+  "learnableMoves": [{
+    "name": "ThunderShock",
+    "type": "Electric",
+    "damage": 40,
+    "pp": 30,
+    "level": 1
+  }, {
+    "name": "Quick Attack",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 30,
+    "level": 1
+  }, {
+    "name": "Thunderbolt",
+    "type": "Electric",
+    "damage": 95,
+    "pp": 15,
+    "level": 1
+  }]
+}, {
+  "id": 29,
+  "name": {
+    "english": "Gible",
+    "japanese": "\u30d5\u30ab\u30de\u30eb",
+    "chinese": "\u5706\u9646\u9ca8"
+  },
+  "type": ["Dragon", "Ground"],
+  "base": {
+    "HP": 58,
+    "Attack": 70,
+    "Defense": 45,
+    "Sp. Attack": 40,
+    "Sp. Defense": 45,
+    "Speed": 42
+  },
+  "evolutions": [{
+    "id": 29,
+    "name": "Gible"
+  }, {
+    "id": 30,
+    "from": 29,
+    "trigger": "leveling",
+    "trigger_lvl": 6,
+    "name": "Gabite"
+  }, {
+    "id": 31,
+    "from": 30,
+    "trigger": "leveling",
+    "trigger_lvl": 12,
+    "name": "Garchomp"
+  }],
+  "learnableMoves": [{
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 35,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Take Down",
+    "type": "Normal",
+    "damage": 90,
+    "pp": 20,
+    "level": 4
+  }, {
+    "name": "Sand Tomb",
+    "type": "Ground",
+    "damage": 15,
+    "pp": 15,
+    "level": 5
+  }, {
+    "name": "Slash",
+    "type": "Normal",
+    "damage": 70,
+    "pp": 20,
+    "level": 7
+  }, {
+    "name": "Dragon Claw",
+    "type": "Dragon",
+    "damage": 80,
+    "pp": 15,
+    "level": 7
+  }, {
+    "name": "Dig",
+    "type": "Ground",
+    "damage": 80,
+    "pp": 10,
+    "level": 8
+  }, {
+    "name": "Dragon Rush",
+    "type": "Dragon",
+    "damage": 100,
+    "pp": 10,
+    "level": 10
+  }]
+}, {
+  "id": 30,
+  "name": {
+    "english": "Gabite",
+    "japanese": "\u30ac\u30d0\u30a4\u30c8",
+    "chinese": "\u5c16\u7259\u9646\u9ca8"
+  },
+  "type": ["Dragon", "Ground"],
+  "base": {
+    "HP": 68,
+    "Attack": 90,
+    "Defense": 65,
+    "Sp. Attack": 50,
+    "Sp. Defense": 55,
+    "Speed": 82
+  },
+  "evolutions": [{
+    "id": 29,
+    "name": "Gible"
+  }, {
+    "id": 30,
+    "from": 29,
+    "trigger": "leveling",
+    "trigger_lvl": 6,
+    "name": "Gabite"
+  }, {
+    "id": 31,
+    "from": 30,
+    "trigger": "leveling",
+    "trigger_lvl": 12,
+    "name": "Garchomp"
+  }],
+  "learnableMoves": [{
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 35,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Take Down",
+    "type": "Normal",
+    "damage": 90,
+    "pp": 20,
+    "level": 4
+  }, {
+    "name": "Sand Tomb",
+    "type": "Ground",
+    "damage": 15,
+    "pp": 15,
+    "level": 5
+  }, {
+    "name": "Slash",
+    "type": "Normal",
+    "damage": 70,
+    "pp": 20,
+    "level": 7
+  }, {
+    "name": "Dragon Claw",
+    "type": "Dragon",
+    "damage": 80,
+    "pp": 15,
+    "level": 9
+  }, {
+    "name": "Dig",
+    "type": "Ground",
+    "damage": 80,
+    "pp": 10,
+    "level": 10
+  }, {
+    "name": "Dragon Rush",
+    "type": "Dragon",
+    "damage": 100,
+    "pp": 10,
+    "level": 13
+  }]
+}, {
+  "id": 31,
+  "name": {
+    "english": "Garchomp",
+    "japanese": "\u30ac\u30d6\u30ea\u30a2\u30b9",
+    "chinese": "\u70c8\u54ac\u9646\u9ca8"
+  },
+  "type": ["Dragon", "Ground"],
+  "base": {
+    "HP": 108,
+    "Attack": 130,
+    "Defense": 95,
+    "Sp. Attack": 80,
+    "Sp. Defense": 85,
+    "Speed": 102
+  },
+  "evolutions": [{
+    "id": 29,
+    "name": "Gible"
+  }, {
+    "id": 30,
+    "from": 29,
+    "trigger": "leveling",
+    "trigger_lvl": 6,
+    "name": "Gabite"
+  }, {
+    "id": 31,
+    "from": 30,
+    "trigger": "leveling",
+    "trigger_lvl": 12,
+    "name": "Garchomp"
+  }],
+  "learnableMoves": [{
+    "name": "Fire Fang",
+    "type": "Fire",
+    "damage": 65,
+    "pp": 15,
+    "level": 1
+  }, {
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 35,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Take Down",
+    "type": "Normal",
+    "damage": 90,
+    "pp": 20,
+    "level": 4
+  }, {
+    "name": "Sand Tomb",
+    "type": "Ground",
+    "damage": 15,
+    "pp": 15,
+    "level": 5
+  }, {
+    "name": "Slash",
+    "type": "Normal",
+    "damage": 70,
+    "pp": 20,
+    "level": 7
+  }, {
+    "name": "Dragon Claw",
+    "type": "Dragon",
+    "damage": 80,
+    "pp": 15,
+    "level": 9
+  }, {
+    "name": "Dig",
+    "type": "Ground",
+    "damage": 80,
+    "pp": 10,
+    "level": 10
+  }, {
+    "name": "Crunch",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 15,
+    "level": 12
+  }, {
+    "name": "Dragon Rush",
+    "type": "Dragon",
+    "damage": 100,
+    "pp": 10,
+    "level": 14
+  }]
+}, {
+  "id": 32,
+  "name": {
+    "english": "Munchlax",
+    "japanese": "\u30b4\u30f3\u30d9",
+    "chinese": "\u5c0f\u5361\u6bd4\u517d"
+  },
+  "type": ["Normal"],
+  "base": {
+    "HP": 135,
+    "Attack": 85,
+    "Defense": 40,
+    "Sp. Attack": 40,
+    "Sp. Defense": 85,
+    "Speed": 5
+  },
+  "evolutions": [{
+    "id": 32,
+    "name": "Munchlax"
+  }, {
+    "id": 33,
+    "from": 32,
+    "trigger": "leveling",
+    "name": "Snorlax",
+    "trigger_lvl": 10
+  }],
+  "learnableMoves": [{
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 35,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Lick",
+    "type": "Ghost",
+    "damage": 20,
+    "pp": 30,
+    "level": 3
+  }, {
+    "name": "Body Slam",
+    "type": "Normal",
+    "damage": 85,
+    "pp": 15,
+    "level": 9
+  }, {
+    "name": "Rollout",
+    "type": "Rock",
+    "damage": 30,
+    "pp": 20,
+    "level": 11
+  }, {
+    "name": "Last Resort",
+    "type": "Normal",
+    "damage": 130,
+    "pp": 5,
+    "level": 13
+  }]
+}, {
+  "id": 33,
+  "name": {
+    "english": "Snorlax",
+    "japanese": "\u30ab\u30d3\u30b4\u30f3",
+    "chinese": "\u5361\u6bd4\u517d"
+  },
+  "type": ["Normal"],
+  "base": {
+    "HP": 160,
+    "Attack": 110,
+    "Defense": 65,
+    "Sp. Attack": 65,
+    "Sp. Defense": 110,
+    "Speed": 30
+  },
+  "evolutions": [{
+    "id": 32,
+    "name": "Munchlax"
+  }, {
+    "id": 33,
+    "from": 32,
+    "trigger": "leveling",
+    "name": "Snorlax",
+    "trigger_lvl": 10
+  }],
+  "learnableMoves": [{
+    "name": "Tackle",
+    "type": "Normal",
+    "damage": 30,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Lick",
+    "type": "Ghost",
+    "damage": 20,
+    "pp": 30,
+    "level": 3
+  }, {
+    "name": "Snore",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 15,
+    "level": 7
+  }, {
+    "name": "Body Slam",
+    "type": "Normal",
+    "damage": 85,
+    "pp": 15,
+    "level": 9
+  }, {
+    "name": "Rollout",
+    "type": "Rock",
+    "damage": 30,
+    "pp": 20,
+    "level": 11
+  }, {
+    "name": "Crunch",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 15,
+    "level": 11
+  }, {
+    "name": "Giga Impact",
+    "type": "Normal",
+    "damage": 150,
+    "pp": 5,
+    "level": 13
+  }]
+}, {
+  "id": 34,
+  "name": {
+    "english": "Riolu",
+    "japanese": "\u30ea\u30aa\u30eb",
+    "chinese": "\u5229\u6b27\u8def"
+  },
+  "type": ["Fighting"],
+  "base": {
+    "HP": 40,
+    "Attack": 70,
+    "Defense": 40,
+    "Sp. Attack": 35,
+    "Sp. Defense": 40,
+    "Speed": 60
+  },
+  "evolutions": [{
+    "id": 34,
+    "name": "Riolu"
+  }, {
+    "id": 35,
+    "from": 34,
+    "trigger": "leveling",
+    "name": "Lucario",
+    "trigger_lvl": 10
+  }],
+  "learnableMoves": [{
+    "name": "Quick Attack",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 30,
+    "level": 1
+  }, {
+    "name": "Force Palm",
+    "type": "Fighting",
+    "damage": 60,
+    "pp": 10,
+    "level": 3
+  }, {
+    "name": "Feint",
+    "type": "Normal",
+    "damage": 50,
+    "pp": 10,
+    "level": 4
+  }]
+}, {
+  "id": 35,
+  "name": {
+    "english": "Lucario",
+    "japanese": "\u30eb\u30ab\u30ea\u30aa",
+    "chinese": "\u8def\u5361\u5229\u6b27"
+  },
+  "type": ["Fighting", "Steel"],
+  "base": {
+    "HP": 70,
+    "Attack": 110,
+    "Defense": 70,
+    "Sp. Attack": 115,
+    "Sp. Defense": 70,
+    "Speed": 90
+  },
+  "evolutions": [{
+    "id": 34,
+    "name": "Riolu"
+  }, {
+    "id": 35,
+    "from": 34,
+    "trigger": "leveling",
+    "name": "Lucario",
+    "trigger_lvl": 10
+  }],
+  "learnableMoves": [{
+    "name": "Dark Pulse",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 15,
+    "level": 1
+  }, {
+    "name": "Quick Attack",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 30,
+    "level": 1
+  }, {
+    "name": "Metal Claw",
+    "type": "Steel",
+    "damage": 50,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Force Palm",
+    "type": "Fighting",
+    "damage": 60,
+    "pp": 10,
+    "level": 3
+  }, {
+    "name": "Feint",
+    "type": "Normal",
+    "damage": 50,
+    "pp": 10,
+    "level": 4
+  }, {
+    "name": "Bone Rush",
+    "type": "Ground",
+    "damage": 25,
+    "pp": 10,
+    "level": 5
+  }, {
+    "name": "Aura Sphere",
+    "type": "Fighting",
+    "damage": 90,
+    "pp": 20,
+    "level": 10
+  }, {
+    "name": "Close Combat",
+    "type": "Fighting",
+    "damage": 120,
+    "pp": 5,
+    "level": 11
+  }, {
+    "name": "Dragon Pulse",
+    "type": "Dragon",
+    "damage": 90,
+    "pp": 10,
+    "level": 12
+  }, {
+    "name": "ExtremeSpeed",
+    "type": "Normal",
+    "damage": 80,
+    "pp": 5,
+    "level": 13
+  }]
+}, {
+  "id": 36,
+  "name": {
+    "english": "Sneasel",
+    "japanese": "\u30cb\u30e5\u30fc\u30e9",
+    "chinese": "\u72c3\u62c9"
+  },
+  "type": ["Dark", "Ice"],
+  "base": {
+    "HP": 55,
+    "Attack": 95,
+    "Defense": 55,
+    "Sp. Attack": 35,
+    "Sp. Defense": 75,
+    "Speed": 115
+  },
+  "evolutions": [{
+    "id": 36,
+    "name": "Sneasel"
+  }, {
+    "id": 37,
+    "from": 36,
+    "trigger": "leveling",
+    "name": "Weavile",
+    "trigger_lvl": 10
+  }],
+  "learnableMoves": [{
+    "name": "Scratch",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Quick Attack",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 30,
+    "level": 2
+  }, {
+    "name": "Faint Attack",
+    "type": "Dark",
+    "damage": 60,
+    "pp": 20,
+    "level": 4
+  }, {
+    "name": "Fury Swipes",
+    "type": "Normal",
+    "damage": 18,
+    "pp": 15,
+    "level": 6
+  }, {
+    "name": "Icy Wind",
+    "type": "Ice",
+    "damage": 55,
+    "pp": 15,
+    "level": 7
+  }, {
+    "name": "Slash",
+    "type": "Normal",
+    "damage": 70,
+    "pp": 20,
+    "level": 9
+  }, {
+    "name": "Beat Up",
+    "type": "Dark",
+    "damage": 10,
+    "pp": 10,
+    "level": 10
+  }, {
+    "name": "Metal Claw",
+    "type": "Steel",
+    "damage": 50,
+    "pp": 35,
+    "level": 11
+  }, {
+    "name": "Ice Shard",
+    "type": "Ice",
+    "damage": 40,
+    "pp": 30,
+    "level": 13
+  }]
+}, {
+  "id": 37,
+  "name": {
+    "english": "Weavile",
+    "japanese": "\u30de\u30cb\u30e5\u30fc\u30e9",
+    "chinese": "\u739b\u72c3\u62c9"
+  },
+  "type": ["Dark", "Ice"],
+  "base": {
+    "HP": 70,
+    "Attack": 120,
+    "Defense": 65,
+    "Sp. Attack": 45,
+    "Sp. Defense": 85,
+    "Speed": 125
+  },
+  "evolutions": [{
+    "id": 36,
+    "name": "Sneasel"
+  }, {
+    "id": 37,
+    "from": 36,
+    "trigger": "leveling",
+    "name": "Weavile",
+    "trigger_lvl": 10
+  }],
+  "learnableMoves": [{
+    "name": "Assurance",
+    "type": "Dark",
+    "damage": 50,
+    "pp": 10,
+    "level": 1
+  }, {
+    "name": "Revenge",
+    "type": "Fighting",
+    "damage": 60,
+    "pp": 10,
+    "level": 1
+  }, {
+    "name": "Scratch",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 35,
+    "level": 1
+  }, {
+    "name": "Quick Attack",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 30,
+    "level": 1
+  }, {
+    "name": "Quick Attack",
+    "type": "Normal",
+    "damage": 40,
+    "pp": 30,
+    "level": 2
+  }, {
+    "name": "Faint Attack",
+    "type": "Dark",
+    "damage": 60,
+    "pp": 20,
+    "level": 4
+  }, {
+    "name": "Fury Swipes",
+    "type": "Normal",
+    "damage": 18,
+    "pp": 15,
+    "level": 6
+  }, {
+    "name": "Icy Wind",
+    "type": "Ice",
+    "damage": 55,
+    "pp": 15,
+    "level": 7
+  }, {
+    "name": "Night Slash",
+    "type": "Dark",
+    "damage": 70,
+    "pp": 15,
+    "level": 9
+  }, {
+    "name": "Metal Claw",
+    "type": "Steel",
+    "damage": 50,
+    "pp": 35,
+    "level": 11
+  }, {
+    "name": "Dark Pulse",
+    "type": "Dark",
+    "damage": 80,
+    "pp": 15,
+    "level": 13
+  }]
+}, {
+  "id": 38,
+  "name": {
+    "english": "Uxie",
+    "japanese": "\u30e6\u30af\u30b7\u30fc",
+    "chinese": "\u7531\u514b\u5e0c"
+  },
+  "type": ["Psychic"],
+  "base": {
+    "HP": 75,
+    "Attack": 75,
+    "Defense": 130,
+    "Sp. Attack": 75,
+    "Sp. Defense": 130,
+    "Speed": 95
+  },
+  "evolutions": [{
+    "id": 38,
+    "name": "Uxie"
+  }],
+  "learnableMoves": [{
+    "name": "Confusion",
+    "type": "Psychic",
+    "damage": 50,
+    "pp": 25,
+    "level": 1
+  }, {
+    "name": "Swift",
+    "type": "Normal",
+    "damage": 60,
+    "pp": 20,
+    "level": 6
+  }, {
+    "name": "Future Sight",
+    "type": "Psychic",
+    "damage": 80,
+    "pp": 15,
+    "level": 9
+  }, {
+    "name": "Extrasensory",
+    "type": "Psychic",
+    "damage": 80,
+    "pp": 30,
+    "level": 13
+  }]
+}, {
+  "id": 39,
+  "name": {
+    "english": "Mesprit",
+    "japanese": "\u30a8\u30e0\u30ea\u30c3\u30c8",
+    "chinese": "\u827e\u59c6\u5229\u591a"
+  },
+  "type": ["Psychic"],
+  "base": {
+    "HP": 80,
+    "Attack": 105,
+    "Defense": 105,
+    "Sp. Attack": 105,
+    "Sp. Defense": 105,
+    "Speed": 80
+  },
+  "evolutions": [{
+    "id": 39,
+    "name": "Mesprit"
+  }],
+  "learnableMoves": [{
+    "name": "Confusion",
+    "type": "Psychic",
+    "damage": 50,
+    "pp": 25,
+    "level": 1
+  }, {
+    "name": "Swift",
+    "type": "Normal",
+    "damage": 60,
+    "pp": 20,
+    "level": 6
+  }, {
+    "name": "Future Sight",
+    "type": "Psychic",
+    "damage": 80,
+    "pp": 15,
+    "level": 9
+  }, {
+    "name": "Extrasensory",
+    "type": "Psychic",
+    "damage": 80,
+    "pp": 30,
+    "level": 13
+  }]
+}, {
+  "id": 40,
+  "name": {
+    "english": "Azelf",
+    "japanese": "\u30a2\u30b0\u30ce\u30e0",
+    "chinese": "\u4e9a\u514b\u8bfa\u59c6"
+  },
+  "type": ["Psychic"],
+  "base": {
+    "HP": 75,
+    "Attack": 125,
+    "Defense": 70,
+    "Sp. Attack": 125,
+    "Sp. Defense": 70,
+    "Speed": 115
+  },
+  "evolutions": [{
+    "id": 40,
+    "name": "Azelf"
+  }],
+  "learnableMoves": [{
+    "name": "Confusion",
+    "type": "Psychic",
+    "damage": 50,
+    "pp": 25,
+    "level": 1
+  }, {
+    "name": "Swift",
+    "type": "Normal",
+    "damage": 60,
+    "pp": 20,
+    "level": 6
+  }, {
+    "name": "Uproar",
+    "type": "Normal",
+    "damage": 50,
+    "pp": 10,
+    "level": 8
+  }, {
+    "name": "Future Sight",
+    "type": "Psychic",
+    "damage": 80,
+    "pp": 15,
+    "level": 9
+  }, {
+    "name": "Extrasensory",
+    "type": "Psychic",
+    "damage": 80,
+    "pp": 30,
+    "level": 13
+  }, {
+    "name": "Last Resort",
+    "type": "Normal",
+    "damage": 130,
+    "pp": 5,
+    "level": 16
+  }, {
+    "name": "Explosion",
+    "type": "Normal",
+    "damage": 250,
+    "pp": 5,
+    "level": 19
+  }]
+}, {
+  "id": 41,
+  "name": {
+    "english": "Dialga",
+    "japanese": "\u30c7\u30a3\u30a2\u30eb\u30ac",
+    "chinese": "\u5e1d\u7259\u5362\u5361"
+  },
+  "type": ["Steel", "Dragon"],
+  "base": {
+    "HP": 100,
+    "Attack": 120,
+    "Defense": 120,
+    "Sp. Attack": 150,
+    "Sp. Defense": 100,
+    "Speed": 90
+  },
+  "evolutions": [{
+    "id": 41,
+    "name": "Dialga"
+  }],
+  "learnableMoves": [{
+    "name": "DragonBreath",
+    "type": "Dragon",
+    "damage": 60,
+    "pp": 20,
+    "level": 1
+  }, {
+    "name": "Metal Claw",
+    "type": "Steel",
+    "damage": 50,
+    "pp": 35,
+    "level": 2
+  }, {
+    "name": "AncientPower",
+    "type": "Rock",
+    "damage": 60,
+    "pp": 5,
+    "level": 3
+  }, {
+    "name": "Slash",
+    "type": "Normal",
+    "damage": 70,
+    "pp": 20,
+    "level": 4
+  }, {
+    "name": "Power Gem",
+    "type": "Rock",
+    "damage": 70,
+    "pp": 20,
+    "level": 5
+  }, {
+    "name": "Dragon Claw",
+    "type": "Dragon",
+    "damage": 80,
+    "pp": 15,
+    "level": 7
+  }, {
+    "name": "Earth Power",
+    "type": "Ground",
+    "damage": 90,
+    "pp": 10,
+    "level": 9
+  }, {
+    "name": "Aura Sphere",
+    "type": "Fighting",
+    "damage": 90,
+    "pp": 20,
+    "level": 10
+  }, {
+    "name": "Roar of Time",
+    "type": "Dragon",
+    "damage": 150,
+    "pp": 5,
+    "level": 12
+  }, {
+    "name": "Flash Cannon",
+    "type": "Steel",
+    "damage": 80,
+    "pp": 10,
+    "level": 11
+  }]
+}, {
+  "id": 42,
+  "name": {
+    "english": "Palkia",
+    "japanese": "\u30d1\u30eb\u30ad\u30a2",
+    "chinese": "\u5e15\u8def\u5947\u4e9a"
+  },
+  "type": ["Water", "Dragon"],
+  "base": {
+    "HP": 90,
+    "Attack": 120,
+    "Defense": 100,
+    "Sp. Attack": 150,
+    "Sp. Defense": 120,
+    "Speed": 100
+  },
+  "evolutions": [{
+    "id": 42,
+    "name": "Palkia"
+  }],
+  "learnableMoves": [{
+    "name": "DragonBreath",
+    "type": "Dragon",
+    "damage": 60,
+    "pp": 20,
+    "level": 1
+  }, {
+    "name": "Water Pulse",
+    "type": "Water",
+    "damage": 60,
+    "pp": 20,
+    "level": 2
+  }, {
+    "name": "AncientPower",
+    "type": "Rock",
+    "damage": 60,
+    "pp": 5,
+    "level": 3
+  }, {
+    "name": "Slash",
+    "type": "Normal",
+    "damage": 70,
+    "pp": 20,
+    "level": 4
+  }, {
+    "name": "Power Gem",
+    "type": "Rock",
+    "damage": 70,
+    "pp": 20,
+    "level": 5
+  }, {
+    "name": "Aqua Tail",
+    "type": "Water",
+    "damage": 90,
+    "pp": 10,
+    "level": 6
+  }, {
+    "name": "Dragon Claw",
+    "type": "Dragon",
+    "damage": 80,
+    "pp": 15,
+    "level": 7
+  }, {
+    "name": "Earth Power",
+    "type": "Ground",
+    "damage": 90,
+    "pp": 10,
+    "level": 9
+  }, {
+    "name": "Aura Sphere",
+    "type": "Fighting",
+    "damage": 90,
+    "pp": 20,
+    "level": 10
+  }, {
+    "name": "Spacial Rend",
+    "type": "Dragon",
+    "damage": 100,
+    "pp": 5,
+    "level": 12
+  }, {
+    "name": "Hydro Pump",
+    "type": "Water",
+    "damage": 120,
+    "pp": 5,
+    "level": 11
+  }]
+}]
