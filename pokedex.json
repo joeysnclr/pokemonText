@@ -209,18 +209,6 @@
     "type": "Grass",
     "damage": 20,
     "pp": 25,
-    "level": 1
-  }, {
-    "name": "Razor Leaf",
-    "type": "Grass",
-    "damage": 55,
-    "pp": 25,
-    "level": 1
-  }, {
-    "name": "Absorb",
-    "type": "Grass",
-    "damage": 20,
-    "pp": 25,
     "level": 3
   }, {
     "name": "Razor Leaf",
@@ -385,12 +373,6 @@
     "pp": 25,
     "level": 1
   }, {
-    "name": "Ember",
-    "type": "Fire",
-    "damage": 40,
-    "pp": 25,
-    "level": 2
-  }, {
     "name": "Mach Punch",
     "type": "Fighting",
     "damage": 40,
@@ -470,12 +452,6 @@
     "type": "Normal",
     "damage": 40,
     "pp": 35,
-    "level": 1
-  }, {
-    "name": "Ember",
-    "type": "Fire",
-    "damage": 40,
-    "pp": 25,
     "level": 1
   }, {
     "name": "Ember",
@@ -749,12 +725,6 @@
     "type": "Water",
     "damage": 20,
     "pp": 30,
-    "level": 1
-  }, {
-    "name": "Bubble",
-    "type": "Water",
-    "damage": 20,
-    "pp": 30,
     "level": 2
   }, {
     "name": "Peck",
@@ -923,12 +893,6 @@
     "type": "Normal",
     "damage": 40,
     "pp": 30,
-    "level": 1
-  }, {
-    "name": "Quick Attack",
-    "type": "Normal",
-    "damage": 40,
-    "pp": 30,
     "level": 2
   }, {
     "name": "Wing Attack",
@@ -1005,18 +969,6 @@
     "damage": 60,
     "pp": 35,
     "level": 1
-  }, {
-    "name": "Quick Attack",
-    "type": "Normal",
-    "damage": 40,
-    "pp": 30,
-    "level": 2
-  }, {
-    "name": "Wing Attack",
-    "type": "Flying",
-    "damage": 60,
-    "pp": 35,
-    "level": 3
   }, {
     "name": "Aerial Ace",
     "type": "Flying",
@@ -1582,12 +1534,6 @@
     "pp": 30,
     "level": 1
   }, {
-    "name": "Quick Attack",
-    "type": "Normal",
-    "damage": 40,
-    "pp": 30,
-    "level": 1
-  }, {
     "name": "Water Gun",
     "type": "Water",
     "damage": 40,
@@ -1973,12 +1919,6 @@
     "type": "Normal",
     "damage": 40,
     "pp": 30,
-    "level": 1
-  }, {
-    "name": "Ember",
-    "type": "Fire",
-    "damage": 40,
-    "pp": 25,
     "level": 1
   }, {
     "name": "Ember",
@@ -2822,12 +2762,6 @@
     "type": "Normal",
     "damage": 40,
     "pp": 35,
-    "level": 1
-  }, {
-    "name": "Quick Attack",
-    "type": "Normal",
-    "damage": 40,
-    "pp": 30,
     "level": 1
   }, {
     "name": "Quick Attack",
