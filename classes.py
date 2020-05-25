@@ -63,8 +63,8 @@ class Trainer(object):
 		self.bag = Bag()
 		self.money = 0
 		self.pokedex = Pokedex() #maybe make pokedex a class?
-		self.location = 'Laupel City'
-		self.gymBadges = [1,2,3]
+		self.location = 'Ecrin Town'
+		self.gymBadges = []
 		self.activePoke = None
 		self.blackout = False
 		self.defeated = False
@@ -133,7 +133,6 @@ class Trainer(object):
 		else:
 			self.pokemon.insert(0, self.pokemon.pop(choiceIndex))
 		return self
-
 
 	def nextAlivePokemon(self):
 		for poke in self.pokemon:
@@ -570,6 +569,7 @@ class TrainerBattle(object):
 
 			if self.opp.activePoke != None:
 				self.user.pokedex.seenNew(self.opp.activePoke.pokedexData['id']) # makes sure that the opponents pokemon is now seen in the pokedex
+				self.user.pokedex.seenNew(self.user.activePoke.pokedexData['id']) # makes sure that the your pokemon has been added to the pokedex if it has evolved
 			self.turns += 1
 
 		self.battleOver()

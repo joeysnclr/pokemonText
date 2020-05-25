@@ -12,8 +12,7 @@ import numpy.random
 
 
 choices = ['New Game', 'Load Game']
-# choiceIndex = userChoice(choices, 'Where would you like to start from?')
-choiceIndex = 0
+choiceIndex = userChoice(choices, 'Where would you like to start from?')
 choice = choices[choiceIndex]
 if choice == 'New Game':
 	gameData = {
@@ -666,7 +665,23 @@ def route(routeName):
 			if gameData['trainer'].blackout == True:
 				blackout()
 				return
-			# input('Press ENTER to continue on {}'.format(routeName))
+			continueTravelling = False
+			while not continueTravelling:
+				menuChoices = ['Continue', 'Bag', 'Pokedex', 'Pokemon','Me']
+				answerIndex = userChoice(menuChoices, "What's Next {}?".format(gameData['trainer'].name))
+				answer = menuChoices[answerIndex]
+				if answer == 'Continue':
+					continueTravelling = True
+				elif answer == 'Bag':
+					bag()
+				elif answer == 'Pokedex':
+					pokedex()
+				elif answer == 'Pokemon':
+					pokemon()
+				elif answer == 'Me':
+					trainer()
+
+			
 
 	gameData['trainer'].location = gameData['locations'][routeName]['travelKey'][gameData['trainer'].location]
 	input('You have arrived in {}'.format(gameData['trainer'].location))
@@ -686,7 +701,7 @@ def travel():
 	if availablePaths[pathIndex] == 'Exit':
 		return
 	else:
-		routeName = currLocation['paths'][pathIndex]
+		routeName = availablePaths[pathIndex]
 		
 		# fights trainers/wild pokemon on route and sets your location to the next city
 		route(routeName)
@@ -776,9 +791,6 @@ def pokeMart():
 			else:
 				input("You don't have enough money!")
 
-	
-
-	print('pokeMart')
 
 def fightGym():
 	currLocation = gameData['trainer'].location
@@ -827,18 +839,16 @@ def fightGym():
 					input('Nice job! Keep going!')
 			currTrainer.heal()
 
-def map():
+	gameData['locations'][currLocation]['gym'] = False
 
-	print('map')
 
 def trainer():
 
 	input(gameData['trainer'])
 
-
 def menu():
 	print('Trainer {}\n{}'.format(gameData['trainer'].name, gameData['trainer'].location))
-	menuChoices = ['Travel', 'Talk', 'Bag', 'Pokedex', 'Pokemon', 'Map','Me', 'Save']
+	menuChoices = ['Travel', 'Talk', 'Bag', 'Pokedex', 'Pokemon','Me', 'Save']
 	currLocation = gameData['locations'][gameData['trainer'].location]
 	if currLocation['pokecenter']:
 		menuChoices.append('Visit PokeCenter')
@@ -855,7 +865,7 @@ def menu():
 	if answer == 'Travel':
 		travel()
 	elif answer == 'Talk':
-		talk()
+		talk() # ADD NPCS
 	elif answer == 'Bag':
 		bag()
 	elif answer == 'Pokedex':
@@ -868,8 +878,6 @@ def menu():
 		pokeMart()
 	elif answer == 'Fight Gym':
 		fightGym()
-	elif answer == 'Map':
-		map()
 	elif answer == 'Me':
 		trainer()
 	elif answer == 'Save':
@@ -877,11 +885,11 @@ def menu():
 	elif answer == 'Sail':
 		sail()
 
-
 def preGame():
 	print('enter name, choose pokemon, talk w/ professor, recieve poke balls, and pokedex')
-	gameData['trainer'] = Trainer('Joey')
-	gameData['trainer'].addPokemon(Pokemon('Chimchar', level=gameData['starterLevel']))
+	starterPokemon = [Pokemon('Chimchar', level=gameData['starterLevel']), Pokemon('Piplup', level=gameData['starterLevel']), Pokemon('Turtwig', level=gameData['starterLevel'])]
+	starterPokemonChoiceIndex = userChoice(starterPokemon,  "Choose your starter Pokemon!")
+	gameData['trainer'].addPokemon(starterPokemon[starterPokemonChoiceIndex])
 	for i in range(5):
 		gameData['trainer'].bag.addItem('Poke Ball')
 		gameData['trainer'].bag.addItem('Potion')
