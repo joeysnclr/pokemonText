@@ -62,11 +62,12 @@ class Trainer(object):
 		self.pc = []
 		self.bag = Bag()
 		self.money = 0
-		self.pokedex = Pokedex() #maybe make pokedex a class?
+		self.pokedex = Pokedex()
 		self.location = 'Ecrin Town'
 		self.gymBadges = []
 		self.activePoke = None
 		self.blackout = False
+		self.lastPokeCenter = 'Ecrin Town'
 		self.defeated = False
 
 	def __str__(self):
@@ -87,6 +88,7 @@ class Trainer(object):
 			p.stats['CurrHP'] = p.stats['HP']
 			for a in p.attacks:
 				a.currPp = a.maxPp
+		self.lastPokeCenter = self.location
 		return self
 
 	def wager(self):
@@ -105,6 +107,33 @@ class Trainer(object):
 			self.pc.append(pokemon)
 		self.pokedex.seenNew(pokemon.pokedexData['id'])
 		return self
+
+	def withdrawPokemonFromPC(self):
+		if len(self.pokemon) >= 6:
+			input("Please deposit Pokemon. You can't have more than 6!")
+			return
+		choices = self.pc[:]
+		choices.append("Exit")
+		choiceIndex = userChoice(choices, 'Which Pokemon would you like to withdraw?')
+		choice = choices[choiceIndex]
+		if choice != "Exit":
+			self.pc.remove(choice)
+			self.pokemon.append(choice)
+			input("Withdrew {} from the PC!".format(choice))
+	
+	def depositPokemonToPC(self):
+		if len(self.pokemon) == 1:
+			input("You can't deposit any more Pokemon. You must keep at least 1 in your party.")
+			return
+		choices = self.pokemon[:]
+		choices.append("Exit")
+		choiceIndex = userChoice(choices, 'Which Pokemon would you like to deposit?')
+		choice = choices[choiceIndex]
+		if choice != "Exit":
+			self.pc.append(choice)
+			self.pokemon.remove(choice)
+			input("Deposited {} into the PC!".format(choice))
+
 
 	def switchActivePoke(self):
 		alivePoke = []
@@ -132,6 +161,7 @@ class Trainer(object):
 			return self
 		else:
 			self.pokemon.insert(0, self.pokemon.pop(choiceIndex))
+			self.activePoke = choice
 		return self
 
 	def nextAlivePokemon(self):
@@ -431,6 +461,7 @@ class TrainerBattle(object):
 			self.user.heal()
 			self.user.blackout = True
 			amount = -1 * amount
+			self.opp.heal()
 		else:
 			if not self.wildBattle:
 				self.opp.defeated = True

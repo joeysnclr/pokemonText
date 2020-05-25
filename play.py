@@ -322,7 +322,7 @@ if choice == 'New Game':
 			},
 			"Jetano City": {
 				"city": True,
-				"gym": False,
+				"gym": True,
 				"pokecenter": True,
 				"pokemart": True,
 				"gymData": {
@@ -425,7 +425,7 @@ if choice == 'New Game':
 			},
 			"Corenes City": {
 				"city": True,
-				"gym": False,
+				"gym": True,
 				"pokecenter": True,
 				"pokemart": True,
 				"gymData": {
@@ -621,6 +621,7 @@ else:
 	with open('save_file.pkl', 'rb') as file:
 		gameData = pickle.load(file)
 
+
 def saveGame():
 	input('Saving the game overwrites any previous save files.')
 	choices = ['Yes', 'No']
@@ -632,8 +633,8 @@ def saveGame():
 		quit()
 
 def blackout():
-	print('Your Mom has picked you up from the closest town and brought you home to heal.')
-	gameData['trainer'].location = 'Ecrin Town'
+	print('Your have returned to a familiar PokeCenter and healed your pokemon...')
+	gameData['trainer'].location = gameData['trainer'].lastPokeCenter
 	gameData['trainer'].blackout = False
 
 def wildEncounterChance(currRoute):
@@ -751,14 +752,19 @@ def pokemon():
 		gameData['trainer'].changePartyLeader()
 
 def pokeCenter():
-	choices = ['Yes', 'No']
-	choiceIndex = userChoice(choices, 'Would you like to heal your Pokemon?')
-	choice = choices[choiceIndex]
-	if choice == 'Yes':
-		gameData['trainer'].heal()
-		input('Your Pokemon have been healed!')
-	else:
-		input('Okay! See you again soon!')
+	choice = None
+	while choice != "Exit":
+		choices = ["Heal Pokemon", 'Deposit Pokemon', 'Withdraw Pokemon', "Exit"]
+		choiceIndex = userChoice(choices, 'Welcome to the PokeCenter. How may we help?')
+		choice = choices[choiceIndex]
+		if choice == 'Heal Pokemon':
+			gameData['trainer'].heal()
+			input('Your Pokemon have been healed!')
+		elif choice == "Deposit Pokemon":
+			gameData['trainer'].depositPokemonToPC()
+		elif choice == "Withdraw Pokemon":
+			gameData['trainer'].withdrawPokemonFromPC()
+	input('Okay! See you again soon!')
 
 def pokeMart():
 	allItems = gameData['pokeMartItems']
